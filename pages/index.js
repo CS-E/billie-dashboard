@@ -1,7 +1,13 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+// Package imports
+import Head from "next/head";
 
-export default function Home() {
+// Component imports
+import PageLayout from "../components/Layouts/PageLayout";
+
+// Style imports
+import styles from "../styles/Home.module.css";
+
+const Home = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -18,3 +24,6 @@ export default function Home() {
     </div>
   )
 }
+
+const IndexLayout = PageLayout(Home);
+export default IndexLayout;

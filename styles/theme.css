@@ -1,0 +1,61 @@
+/* NORD THEMES */
+
+.nord-light {
+  /* Background colors */
+  --primary-background: #d8dee9;
+  --secondary-background: #2e3440;
+  --tertiary-background: #88c0d0;
+  --alternate-background: #bf616a;
+  
+  /* Text colors */
+  --primary-text-color: #4c566a;
+  --secondary-text-color: #88c0d0;
+  --tertiary-text-color: #5e81ac;
+  --alternate-text-color: #bf616a;
+  
+  --disabled-text-color: #6c757d;
+
+  /* Button colors */
+  --primary-button-background: #88c0d0;
+  --secondary-button-background: #d8dee9;
+
+  --primary-hover-background: #88c0d0;
+  --secondary-hover-background: #d8dee9;
+}
+
+.nord-dark {
+  /* Background colors */
+  --primary-background: #2e3440;
+  --secondary-background: #d8dee9;
+  --tertiary-background: #88c0d0;
+  --alternate-background: #bf616a;
+  
+  /* Text colors */
+  --primary-text-color: #eceff4;
+  --secondary-text-color: #88c0d0;
+  --tertiary-text-color: #5e81ac;
+  --alternate-text-color: #bf616a;
+  
+  --disabled-text-color: #6c757d;
+
+  /* Button colors */
+  --primary-button-background: #88c0d0;
+  --secondary-button-background: #d8dee9;
+
+  --primary-hover-background: #88c0d0;
+  --secondary-hover-background: #d8dee9;
+
+  /* background-color: var(--primary-background); */
+}
+
+.theme {
+  background-color: var(--primary-background);
+  color: var(--primary-text-color);
+}
+
+.theme a,
+.theme a:hover,
+.theme a:focus,
+.theme a:active {
+  color: var(--secondary-text-color);
+}
